@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 1.25rem;
+    box-shadow: -5px -5px 24px var(--DARK-GRAY);
+}
+
+.left {
+    font-weight: 800;
+}
+
+
+@media (prefers-color-scheme:dark) {
+    .navbar {
+        background-color: var(--D-MODE-DARK-BLUE);
+        color: var(--WHITE);
+        box-shadow: -5px -5px 24px var(--D-MODE-VERY-DARK-BLUE);
+    }
+}

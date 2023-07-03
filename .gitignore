@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+*.Zone.Identifier
+*.ttf:Zone.Identifier
+!*.ttf
 # testing
 /coverage
 
